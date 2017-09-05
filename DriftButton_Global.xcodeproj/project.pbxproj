@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB5ADBDE1DC39E33004DF3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5ADBDD1DC39E33004DF3AB /* main.m */; };
+		DB5ADBE91DC39E33004DF3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5ADBE81DC39E33004DF3AB /* Assets.xcassets */; };
+		DB5ADBEC1DC39E33004DF3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5ADBEA1DC39E33004DF3AB /* LaunchScreen.storyboard */; };
+		DB5ADBF71DC39E34004DF3AB /* DriftButton_GlobalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5ADBF61DC39E34004DF3AB /* DriftButton_GlobalUITests.m */; };
+		DB5ADC031DC39E79004DF3AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5ADC021DC39E79004DF3AB /* AppDelegate.m */; };
+		DB5ADC0A1DC39E88004DF3AB /* RWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5ADC051DC39E88004DF3AB /* RWBaseViewController.m */; };
+		DB5ADC0B1DC39E88004DF3AB /* RWDriftButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5ADC071DC39E88004DF3AB /* RWDriftButton.m */; };
+		DB5ADC0C1DC39E88004DF3AB /* RWDriftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5ADC091DC39E88004DF3AB /* RWDriftViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5ADBF31DC39E34004DF3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5ADBD11DC39E33004DF3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5ADBD81DC39E33004DF3AB;
+			remoteInfo = DriftButton_Global;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB5ADBD91DC39E33004DF3AB /* DriftButton_Global.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriftButton_Global.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5ADBDD1DC39E33004DF3AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5ADBE81DC39E33004DF3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5ADBEB1DC39E33004DF3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5ADBED1DC39E33004DF3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5ADBF21DC39E34004DF3AB /* DriftButton_GlobalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriftButton_GlobalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5ADBF61DC39E34004DF3AB /* DriftButton_GlobalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriftButton_GlobalUITests.m; sourceTree = "<group>"; };
+		DB5ADBF81DC39E34004DF3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5ADC011DC39E79004DF3AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB5ADC021DC39E79004DF3AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB5ADC041DC39E88004DF3AB /* RWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWBaseViewController.h; sourceTree = "<group>"; };
+		DB5ADC051DC39E88004DF3AB /* RWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWBaseViewController.m; sourceTree = "<group>"; };
+		DB5ADC061DC39E88004DF3AB /* RWDriftButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDriftButton.h; sourceTree = "<group>"; };
+		DB5ADC071DC39E88004DF3AB /* RWDriftButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDriftButton.m; sourceTree = "<group>"; };
+		DB5ADC081DC39E88004DF3AB /* RWDriftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDriftViewController.h; sourceTree = "<group>"; };
+		DB5ADC091DC39E88004DF3AB /* RWDriftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDriftViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5ADBD61DC39E33004DF3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5ADBEF1DC39E34004DF3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5ADBD01DC39E33004DF3AB = {
+			isa = PBXGroup;
+			children = (
+				DB5ADBDB1DC39E33004DF3AB /* DriftButton_Global */,
+				DB5ADBF51DC39E34004DF3AB /* DriftButton_GlobalUITests */,
+				DB5ADBDA1DC39E33004DF3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5ADBDA1DC39E33004DF3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5ADBD91DC39E33004DF3AB /* DriftButton_Global.app */,
+				DB5ADBF21DC39E34004DF3AB /* DriftButton_GlobalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5ADBDB1DC39E33004DF3AB /* DriftButton_Global */ = {
+			isa = PBXGroup;
+			children = (
+				DB5ADC011DC39E79004DF3AB /* AppDelegate.h */,
+				DB5ADC021DC39E79004DF3AB /* AppDelegate.m */,
+				DB5ADC041DC39E88004DF3AB /* RWBaseViewController.h */,
+				DB5ADC051DC39E88004DF3AB /* RWBaseViewController.m */,
+				DB5ADC061DC39E88004DF3AB /* RWDriftButton.h */,
+				DB5ADC071DC39E88004DF3AB /* RWDriftButton.m */,
+				DB5ADC081DC39E88004DF3AB /* RWDriftViewController.h */,
+				DB5ADC091DC39E88004DF3AB /* RWDriftViewController.m */,
+				DB5ADBE81DC39E33004DF3AB /* Assets.xcassets */,
+				DB5ADBEA1DC39E33004DF3AB /* LaunchScreen.storyboard */,
+				DB5ADBED1DC39E33004DF3AB /* Info.plist */,
+				DB5ADBDC1DC39E33004DF3AB /* Supporting Files */,
+			);
+			path = DriftButton_Global;
+			sourceTree = "<group>";
+		};
+		DB5ADBDC1DC39E33004DF3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5ADBDD1DC39E33004DF3AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB5ADBF51DC39E34004DF3AB /* DriftButton_GlobalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5ADBF61DC39E34004DF3AB /* DriftButton_GlobalUITests.m */,
+				DB5ADBF81DC39E34004DF3AB /* Info.plist */,
+			);
+			path = DriftButton_GlobalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5ADBD81DC39E33004DF3AB /* DriftButton_Global */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5ADBFB1DC39E34004DF3AB /* Build configuration list for PBXNativeTarget "DriftButton_Global" */;
+			buildPhases = (
+				DB5ADBD51DC39E33004DF3AB /* Sources */,
+				DB5ADBD61DC39E33004DF3AB /* Frameworks */,
+				DB5ADBD71DC39E33004DF3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriftButton_Global;
+			productName = DriftButton_Global;
+			productReference = DB5ADBD91DC39E33004DF3AB /* DriftButton_Global.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5ADBF11DC39E34004DF3AB /* DriftButton_GlobalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5ADBFE1DC39E34004DF3AB /* Build configuration list for PBXNativeTarget "DriftButton_GlobalUITests" */;
+			buildPhases = (
+				DB5ADBEE1DC39E34004DF3AB /* Sources */,
+				DB5ADBEF1DC39E34004DF3AB /* Frameworks */,
+				DB5ADBF01DC39E34004DF3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5ADBF41DC39E34004DF3AB /* PBXTargetDependency */,
+			);
+			name = DriftButton_GlobalUITests;
+			productName = DriftButton_GlobalUITests;
+			productReference = DB5ADBF21DC39E34004DF3AB /* DriftButton_GlobalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5ADBD11DC39E33004DF3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rick Wong";
+				TargetAttributes = {
+					DB5ADBD81DC39E33004DF3AB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DB5ADBF11DC39E34004DF3AB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DB5ADBD81DC39E33004DF3AB;
+					};
+				};
+			};
+			buildConfigurationList = DB5ADBD41DC39E33004DF3AB /* Build configuration list for PBXProject "DriftButton_Global" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5ADBD01DC39E33004DF3AB;
+			productRefGroup = DB5ADBDA1DC39E33004DF3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5ADBD81DC39E33004DF3AB /* DriftButton_Global */,
+				DB5ADBF11DC39E34004DF3AB /* DriftButton_GlobalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5ADBD71DC39E33004DF3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5ADBEC1DC39E33004DF3AB /* LaunchScreen.storyboard in Resources */,
+				DB5ADBE91DC39E33004DF3AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5ADBF01DC39E34004DF3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5ADBD51DC39E33004DF3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5ADC0B1DC39E88004DF3AB /* RWDriftButton.m in Sources */,
+				DB5ADC031DC39E79004DF3AB /* AppDelegate.m in Sources */,
+				DB5ADC0A1DC39E88004DF3AB /* RWBaseViewController.m in Sources */,
+				DB5ADBDE1DC39E33004DF3AB /* main.m in Sources */,
+				DB5ADC0C1DC39E88004DF3AB /* RWDriftViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5ADBEE1DC39E34004DF3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5ADBF71DC39E34004DF3AB /* DriftButton_GlobalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5ADBF41DC39E34004DF3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5ADBD81DC39E33004DF3AB /* DriftButton_Global */;
+			targetProxy = DB5ADBF31DC39E34004DF3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB5ADBEA1DC39E33004DF3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5ADBEB1DC39E33004DF3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5ADBF91DC39E34004DF3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB5ADBFA1DC39E34004DF3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5ADBFC1DC39E34004DF3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DriftButton_Global/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.DriftButton-Global";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB5ADBFD1DC39E34004DF3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DriftButton_Global/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.DriftButton-Global";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB5ADBFF1DC39E34004DF3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DriftButton_GlobalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.DriftButton-GlobalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DriftButton_Global;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB5ADC001DC39E34004DF3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DriftButton_GlobalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.DriftButton-GlobalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DriftButton_Global;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5ADBD41DC39E33004DF3AB /* Build configuration list for PBXProject "DriftButton_Global" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5ADBF91DC39E34004DF3AB /* Debug */,
+				DB5ADBFA1DC39E34004DF3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5ADBFB1DC39E34004DF3AB /* Build configuration list for PBXNativeTarget "DriftButton_Global" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5ADBFC1DC39E34004DF3AB /* Debug */,
+				DB5ADBFD1DC39E34004DF3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5ADBFE1DC39E34004DF3AB /* Build configuration list for PBXNativeTarget "DriftButton_GlobalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5ADBFF1DC39E34004DF3AB /* Debug */,
+				DB5ADC001DC39E34004DF3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5ADBD11DC39E33004DF3AB /* Project object */;
+}
